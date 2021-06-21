@@ -39,4 +39,4 @@ if __name__ == '__main__':
     lon1, lat1, lon2, lat2 = args.coords
     dist = haversine(float(lon1), float(lat1), float(lon2), float(lat2))
     print(colored("###### Distance ######", "blue"))
-    print(f'{colored(dist, "red") Km})
+    print(f'{colored(dist, "red")} Km')
